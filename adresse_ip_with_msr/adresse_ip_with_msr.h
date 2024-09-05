@@ -1,0 +1,18 @@
+void type_of_adress(int verification, char *tab_ip_1,  char *tab_ip_2, char *tab_ip_3, char *tab_ip_4);
+int testing_adresss(char *tab_ip_1, char *tab_ip_2, char *tab_ip_3, char *tab_ip_4);
+void head(char *title);
+void foot_of_body();
+void head_of_body();
+int control_error(char *tab_ip_1, char *tab_ip_2, char *tab_ip_3, char *tab_ip_4);
+int chainecarac(char* recovery_ip);
+void main_main(char *ip, int chaine_ip, char *msr, int chaine_msr);
+void last_test(int number_of_character);
+int* changing_type(char* tab_ip_1, char* tab_ip_2, char* tab_ip_3, char* tab_ip_4);
+int verification_verification(char* tab_ip_1, char* tab_ip_2, char* tab_ip_3, char* tab_ip_4);
+int* changing_in_binaire(int dividende);
+int* giving_ip_binaire(int* ip_part_1, int* ip_part_2, int* ip_part_3, int* ip_part_4);
+int* giving_inverse_netmask(int* binaire_netmask);
+int* binaire_adresse_broadcast(int* binaire_adresse_reseau, int* binaire_netmask);
+int bits_number_of_host(int* binaire_msr);
+int* changing_in_decimal(int* binaire);
+int* giving_adresse_reseau(int* binaire_ip, int* binaire_netmask);
